@@ -114,9 +114,9 @@
       <nav>
         <a href="{{ url_for('post') }}"><i class="fas fa-plus-circle"></i> Create Post</a>
         <a href="{{ url_for('jobs') }}"><i class="fas fa-briefcase"></i> Jobs</a>
-                <a href="{{ url_for('profile') }}"><i class="fas fa-briefcase"></i> Profile</a>
 
-        <form action="{{ url_for('logout') }}" method="post" style="display: inline;">
+
+          <form action="{{ url_for('logout') }}" method="post" style="display: inline;">
           <button type="submit" class="logout-btn"><i class="fas fa-sign-out-alt"></i> Logout</button>
         </form>
       </nav>
